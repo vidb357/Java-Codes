@@ -270,8 +270,7 @@ public class Game2048 extends JFrame {
     }
 
     private Color getTileColor(int value) {
-        // Define colors based on tile values
-        // You can customize this based on your preference
+        
         switch (value) {
             case 2:
                 return new Color(0xFFE4C4);
